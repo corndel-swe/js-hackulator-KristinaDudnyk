@@ -6,13 +6,16 @@
  * subtract(-2, 4) => 6
  */
 function subtract(x, y) {
+  if (x === y) {
+    return 0;
+  }
   if (x < y) {
-    return y - x
+    return y - x;
   }
 
   if (y < x) {
-    return x - y
+    return x - y;
   }
 }
 
-export default subtract
+export default subtract;
