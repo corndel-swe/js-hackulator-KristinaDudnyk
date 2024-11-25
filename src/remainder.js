@@ -3,7 +3,9 @@
  * remainder(10, 3) => 1
  */
 function remainder(x, y) {
-  x / y
+  if (x === y) {
+    return 0;
+  } else return x % y;
 }
 
-export default remainder
+export default remainder;

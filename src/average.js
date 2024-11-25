@@ -1,5 +1,5 @@
 function average(x, y) {
-  return x + y / 2
+  return (x + y) / 2;
 }
 
-export default average
+export default average;
